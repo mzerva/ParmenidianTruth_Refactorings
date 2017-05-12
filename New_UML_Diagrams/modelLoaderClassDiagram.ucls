@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.14" icons="true" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="model.Loader.HecateManager" project="ParmenidianTruth-master" 
+    file="/ParmenidianTruth-master/src/model/Loader/HecateManager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="354" y="412"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="model.Loader.GraphmlLoader" project="ParmenidianTruth-master" 
+    file="/ParmenidianTruth-master/src/model/Loader/GraphmlLoader.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="623" y="385"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="model.Loader.HecateManager.SQLFileFilter" project="ParmenidianTruth-master" 
+    file="/ParmenidianTruth-master/src/model/Loader/HecateManager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="303" y="651"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="model.Loader.Parser" project="ParmenidianTruth-master" 
+    file="/ParmenidianTruth-master/src/model/Loader/Parser.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="504" y="156"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="5">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="6" name="graphmlLoader"/>      
+      <multiplicity id="7" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="8">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </nesting>  
+  <association id="9">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="10" name="worker"/>      
+      <multiplicity id="11" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
