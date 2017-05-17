@@ -1,10 +1,8 @@
 package hecateExport;
 
 import java.io.File;
-import java.io.FileFilter;
 
 import fileFilter.SQLFileFilter;
-import model.HecateManager;
 import model.HecateManagerFactory;
 import model.IHecateManager;
 
