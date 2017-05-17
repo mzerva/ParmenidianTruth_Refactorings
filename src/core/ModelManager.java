@@ -2,14 +2,10 @@ package core;
 
 
 import java.awt.Component;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 
-import javax.swing.JOptionPane;
-
 import edu.uci.ics.jung.visualization.VisualizationViewer;
-import model.DiachronicGraph;
 import model.DiachronicGraphFactory;
 import model.IDiachronicGraph;
 import model.IMetricsReport;
