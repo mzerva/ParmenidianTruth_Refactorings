@@ -11,7 +11,7 @@ import model.GraphMetricsPopulation;
 import model.DiachronicGraph;
 import parmenidianEnumerations.Metric_Enums;
 
-public class ArrayPopulationForGraphMetricsTest {
+public class GraphMetricsPopulationTest {
 	private static DiachronicGraph diag;
 	private static Metric_Enums metric;
 	private static GraphMetricsPopulation graphArray;
