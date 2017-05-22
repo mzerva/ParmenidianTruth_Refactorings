@@ -9,7 +9,7 @@ import model.VertexMetricsPopulation;
 import model.DiachronicGraph;
 import parmenidianEnumerations.Metric_Enums;
 
-public class ArrayPopulationForVertexMetricsTest {
+public class VertexMetricsPopulationTest {
 	private static DiachronicGraph diag;
 	private static Metric_Enums metric;
 	private static VertexMetricsPopulation vertexArray;
